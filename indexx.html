@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FinTax Global Services</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#f4f7fa;color:#222;}
+header{background:#0a2a43;color:#fff;padding:20px 50px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;}
+header h2{font-size:26px;font-weight:600;}
+nav a{color:white;margin:0 12px;text-decoration:none;font-weight:500;}
+nav a:hover{color:#00e1ff;}
+
+.hero{height:420px;background:url('https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg') center/cover no-repeat;display:flex;justify-content:center;align-items:center;text-align:center;color:#fff;}
+.hero h1{font-size:38px;font-weight:600;text-shadow:2px 2px 5px rgba(0,0,0,0.5);}
+.hero p{font-size:18px;margin-top:10px;}
+
+.section{padding:60px 50px;text-align:center;}
+
+.services{display:flex;justify-content:center;flex-wrap:wrap;gap:25px;margin-top:30px;}
+.card{background:white;padding:25px;width:280px;border-radius:10px;box-shadow:0 3px 10px rgba(0,0,0,0.1);transition:.3s;}
+.card:hover{transform:translateY(-6px);box-shadow:0 5px 18px rgba(0,0,0,0.15);}
+.card h3{margin-bottom:10px;color:#0a2a43;}
+
+.contact{background:#0a2a43;color:#fff;padding:60px 40px;text-align:center;}
+.contact p{font-size:18px;margin-bottom:10px;}
+
+form input,form textarea{width:80%;padding:12px;margin-top:10px;border-radius:6px;border:1px solid #bbb;}
+form button{padding:12px 28px;margin-top:10px;border:none;background:#0a2a43;color:#fff;border-radius:6px;font-size:16px;cursor:pointer;}
+form button:hover{background:#05527c;}
+
+footer{text-align:center;background:#062030;color:#fff;padding:15px;margin-top:30px;}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>FinTax Global Services</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#enquiry">Enquiry</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <div>
+        <h1>Professional Tax & Accounting Services</h1>
+        <p>Anonymous Consultancy - Serving India, Australia & America</p>
+    </div>
+</section>
+
+<section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card"><h3>Taxation</h3><p>ITR Filing / Tax Planning</p></div>
+        <div class="card"><h3>Accounting</h3><p>Monthly & Yearly Accounts</p></div>
+        <div class="card"><h3>Business Consultancy</h3><p>Startup / Growth Guidance</p></div>
+        <div class="card"><h3>Registration</h3><p>GST/Company/Startup Registration</p></div>
+        <div class="card"><h3>Foreign Support</h3><p>For Australia & America Clients</p></div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We provide confidential freelancing services in taxation, accounting, business registration and consultancy. 
+       We operate remotely & anonymously while maintaining professional quality & trust.</p>
+    <p><b>Contact Number:</b> +91 98765 43210 (Business Only)</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@fintaxglobal.com</p>
+    <p>Phone: +91 98765 43210</p>
+</section>
+
+<section id="enquiry" class="section">
+    <h2>Send Enquiry</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required><br>
+        <input type="email" placeholder="Email" required><br>
+        <input type="text" placeholder="Phone Number" required><br>
+        <textarea placeholder="Your Query" rows="5" required></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    © 2025 FinTax Global Services. All Rights Reserved.
+</footer>
+
+</body>
+</html>
